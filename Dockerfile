@@ -4,7 +4,7 @@ RUN apk update -y
 RUN apk add nodejs npm
 
 RUN mkdir /root/app
-WORKDIR amazon-backend/server.js
+WORKDIR /root/app
 
 COPY package.json /root/app/
 
