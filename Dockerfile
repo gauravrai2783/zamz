@@ -6,7 +6,7 @@ RUN apk add nodejs npm
 RUN mkdir /root/app
 WORKDIR /root/app
 
-COPY package.json /root/app/package.json
+COPY package.json /root/app/
 
 RUN npm install
 
